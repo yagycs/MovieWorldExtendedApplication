@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MovieWorldExtendedApplication</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="movie_world">Movie World</string>
+    <string name="picture">Picture</string>
+    <string name="movies_name">Movies Name</string>
+    <string name="release_date">Release Date</string>
+    <string name="description">Description</string>
+    <string name="favorite">Favorite \</string>
+    <string name="share">Share \</string>
+    <string name="language_code">en-US</string>
+    <string name="you_choose">You Choose \</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="change">Change</string>
+    <string name="save">File saved</string>
+    <string name="failed">Failed to add data</string>
+    <string name="delete">File deleted</string>
+    <string name="delete_failed">Failed to delete data</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="detail_poster_movie">Detail Poster Movie</string>
+    <string name="detail_description">Detail Description</string>
+    <string name="detail_poster_tv">Detail Poster Tv</string>
+    <string name="rating">rating</string>
+    <string name="_6_0">6.0</string>
+    <string name="backdrop">backdrop</string>
+    <string name="option">Option</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="insert_search">Insert Words</string>
+    <string name="settings">Settings</string>
+    <string name="search_tv">Search Tv</string>
+    <string name="favorite_film">Favorite Film</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">NO DATA</string>
+    <string name="judul">Title</string>
+    <string name="image_widget">Image Widget</string>
+    <string name="data_favorite">No favorite movies have been added</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="release_today_reminder">Release Today Reminder</string>
+    <string name="notif_msg">Movie World Extended Application missing you …</string>
+    <string name="notif_msg_rilis">Today %s Release</string>
+
+</resources>

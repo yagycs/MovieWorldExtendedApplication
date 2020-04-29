@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MovieWorldExtendedApplication</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="movie_world">Movie World</string>
+    <string name="picture">Picture</string>
+    <string name="movies_name">Movies Name</string>
+    <string name="release_date">Release Date</string>
+    <string name="description">Description</string>
+    <string name="favorite">Favorit \</string>
+    <string name="share">Bagikan \</string>
+    <string name="language_code">id-ID</string>
+    <string name="you_choose">Kamu memilih \</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="change">Ubah</string>
+    <string name="save">Data disimpan</string>
+    <string name="failed">Gagal menambahkan data</string>
+    <string name="delete">Data dihapus</string>
+    <string name="delete_failed">Gagal menghapus data</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="option">Pilihan</string>
+    <string name="search_movie">Pencarian Film</string>
+    <string name="insert_search">Masukkan Kata</string>
+    <string name="search_tv">Pencarian Tv</string>
+    <string name="settings">Pengaturan</string>
+    <string name="favorite_film">Film Favorit</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">TIDAK ADA DATA</string>
+    <string name="judul">Judul</string>
+    <string name="data_favorite">Belum ada film favorit ditambahkan</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="release_today_reminder">Pengingat Rilis Hari Ini</string>
+    <string name="notif_msg">Movie World Extended Application merindukan anda …</string>
+    <string name="notif_msg_rilis">Hari Ini %s Rilis</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/menu_favorite" />
+
+        <item
+            android:id="@+id/nav_searchMovie"
+            android:icon="@drawable/ic_searchmovie"
+            android:title="@string/search_movie" />
+
+        <item
+            android:id="@+id/nav_searchTv"
+            android:icon="@drawable/ic_searchtv"
+            android:title="@string/search_tv" />
+
+    </group>
+
+    <item android:title="@string/option">
+        <menu>
+            <item
+                android:id="@+id/nav_set"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/settings" />
+        </menu>
+    </item>
+
+</menu>

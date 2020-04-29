@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/activity_item_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_item_vertical_margin"
+    android:layout_marginRight="@dimen/activity_item_horizontal_margin"
+    android:layout_marginBottom="6dp"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/picture"
+            android:scaleType="fitXY"
+            tools:src="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@id/item_img"
+            android:text="@string/movies_name"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_release"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_title"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/item_img"
+            android:text="@string/release_date"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_release"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/item_img"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/description"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/item_backdrop"
+            android:layout_width="21dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/item_description"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/item_img"
+            android:contentDescription="@string/rating"
+            android:src="@drawable/ic_star_black_24dp" />
+
+        <TextView
+            android:id="@+id/item_rate_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_description"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/item_backdrop"
+            android:text="@string/_6_0" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
